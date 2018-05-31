@@ -3,6 +3,11 @@ function init(){
     alert('coucou');
 }
 
+function power(){
+    document.getElementById('screen').style.display ="block";
+    init();
+}
+
 function getValue(x){
     
 }

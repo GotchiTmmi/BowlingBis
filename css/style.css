@@ -1,4 +1,55 @@
+body {
+    background-color: #333333;
+}
 
+/* positionnement de la TV*/
+#tv {
+    position: absolute;
+   top: 32%;
+   left: 35%;
+   width: 1000px;
+   height: 800px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+}
+
+#screen {
+    display: none;
+    background-color : aliceblue;
+    width: 800px;
+    height: 450px;
+    position: absolute;
+    top: 28%;
+    left: 22%;
+}
+
+#newGame{
+    position: absolute;
+    top: 34%;
+    right: 26%;
+    height: 50px;
+    font-size: 11px;
+    width : 100px;
+    border-color: black;
+    color: black;
+    background-color: skyblue;
+    text-transform: capitalize;
+    border-radius: 10%;
+}
+
+#power{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: red;
+    border-color: black;
+    border: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 65%;
+    right: 23%;
+}
 
 
 
@@ -23,16 +74,4 @@
     font-size: 50px;
     font-weight: bold;
     color: brown;  
-}
-#boutonf {
-    display: inline-block;
-    float: right;
-    padding-right: 30px;
-    width: 150px;
-    height: 50px;
-    border: 2px;
-    border-color: black;
-    color: black;
-    background-color: brown;
-    text-transform: capitalize;
 }
