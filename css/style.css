@@ -51,7 +51,19 @@ body {
     right: 23%;
 }
 
+#text{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 25%;
+    margin-left: -8%;
+}
 
+table tr td{
+    border: 2px solid black;
+    text-align: center;
+}
 
 
 
